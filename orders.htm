@@ -19,6 +19,73 @@
             <a href="contact.htm"><img src="images/nav_contact.gif"></a><br>
             <a href="links.htm"><img src="images/nav_links.gif"></a></td><br>
             <td>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <br><br>
+                <label for="email">Email Adress:</label>
+                <input type="text" name="email" id="email" required>
+                <br><br>
+                <label for="Phone">Phone Number:</label>
+                <input type="text" name="phone" id="phone" required pattern="[0-9]">
+                <br><br>
+
+                <p>pot</p>
+                <label for="pot">Pot Type</label>
+                <br>
+                <select name="pot" id="pot">
+                    <option value="redearth">Red Earth</option>
+                    <option value="nightsky">Night Sky</option>
+                    <option value="countryplanter">Country Planter</option>
+                    <option value="chineseclayflowerpot">Chinese Clay Flower Pot</option>
+                    <option value="italianterracotta">Carved Terracotta</option>
+                    <option value="classicclay">Classic Clay</option>
+                    </select>
+                    <br><br>
+                    <Label for="quantity">Quantity</Label>
+                    <br>
+                    <input type="text" name="quantity" id="quantity">
+
+                    <p>Shipping Address</p>
+                    <label for="adress">State:</label>
+                    <br>
+                    <input type="text" name="street" id="street" required>
+                    <br><br>
+                    <label for="address">City:</label>
+                    <br>
+                    <input type="text" name="city" id="city" required>
+                    <br><br>
+                    <label for="address">Street:</label>
+                    <br>
+                    <input type="text" name="state" id="state" required>
+                    <br><br>
+                    <label for="address">Zip Code:</label>
+                    <br>
+                    <input type="text" name="zip" id="zip" required pattern="[0-9]">
+                    <br><br>
+                    <label for="connect">What's your gardening skill</label>
+                    <br><br>
+                    <input type="radio" name="amateur" id="amateur">
+                    <label for="amateur">Amateur</label>
+
+                    <input type="radio" name="hobbyist" id="hobbyist">
+                    <label for="hobbyist">Hobbyist</label>
+
+                    <input type="radio" name="professional" id="professional">
+                    <label for="professional">Professional</label>
+                    <br><br>
+
+                    <p>Would you like to recieve a newsletter?</p>
+
+                    <label for="yes">Yes</label>
+                    <input type="checkbox" name="yes" id="yes">
+
+                    <label for="no">No</label>
+                    <input type="checkbox" name="no" id="no">
+                    <br>
+                    <br>
+                    <input type="submit" id="submission" value="Submit">
+            </td>
+                
 </tbody>
 </table>
 </table>
